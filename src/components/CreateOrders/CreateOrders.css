@@ -1,0 +1,21 @@
+.orderBtn {
+    background: #f6f6ff;
+    box-sizing: border-box;
+    min-width: 90px;
+    border: none;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px wheat;
+}
+
+.orderBtn:hover {
+    background: #ababac;
+    color: white;
+}
+
+.orderBtn:active {
+    background: wheat;
+    box-shadow: none;
+    color: black;
+}

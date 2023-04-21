@@ -1,0 +1,32 @@
+.createProductForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 94vh;
+    align-items: center;
+    background: rgb(160, 158, 158);
+    justify-content: center;
+    user-select: none;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    min-width: 289px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background: #b1afaf;
+    box-shadow: 5px 5px 10px #464444;
+}
+
+.formTitle {
+    color: white;
+}

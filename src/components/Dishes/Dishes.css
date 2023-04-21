@@ -1,0 +1,60 @@
+.mag {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: grey;
+    flex-direction: column;
+}
+
+.dishes {
+    background: #b1afaf;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    color: white;
+}
+
+.dish {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px;
+    border: 1px solid;
+    padding: 0 0 0 15px;
+    border-radius: 10px;
+    align-items: center;
+    user-select: none;
+}
+
+.dish:hover {
+    background: wheat;
+    color: #4c4949;
+}
+
+.dishName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+.dishTxt {
+    word-break: break-word;
+}
+
+.picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.magMenu {
+    text-align: center;
+    margin: 2px 0;
+}
+
+@media (min-width: 550px)  {
+    .mag {
+        flex-direction: row;
+    }
+}

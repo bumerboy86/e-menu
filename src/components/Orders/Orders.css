@@ -1,0 +1,16 @@
+.ordersBox {
+    padding: 15px;
+    min-height: 89vh;
+    background: rgb(160, 158, 158);
+}
+
+.order {
+    width: 90%;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #ededed;
+}
