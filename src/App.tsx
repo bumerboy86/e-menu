@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path='/e-menu' element={<Layout/>}>
             <Route index element={<CreateOrders />}/>
-            <Route path='/products' element={<CreateProducts />}/>
-            <Route path='/orders' element={<Orders />}/>
+            <Route path='/e-menu/products' element={<CreateProducts />}/>
+            <Route path='/e-menu/orders' element={<Orders />}/>
             <Route path='*' element={<div>404 Page Not Found</div>}/>
         </Route>
       </Routes>

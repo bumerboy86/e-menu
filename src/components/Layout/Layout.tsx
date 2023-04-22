@@ -13,13 +13,13 @@ const Layout = () => {
         <ul>
             <li className='circle' style={{background: state.status}}></li>
             <li className='navLi'>
-                <NavLink to={'/'}>Home</NavLink>
+                <NavLink to={'/e-menu'}>Home</NavLink>
             </li>
             <li className='navLi'>
-                <NavLink to={'/products'}>Products</NavLink>
+                <NavLink to={'/e-menu/products'}>Products</NavLink>
             </li>
             <li className='navLi'>
-                <NavLink to={'/orders'}>Orders</NavLink>
+                <NavLink to={'/e-menu/orders'}>Orders</NavLink>
             </li>
         </ul>
         <Outlet />
